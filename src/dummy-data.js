@@ -54,6 +54,66 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "Zavier",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://www.graziame.com/sites/default/files/graziame/images/2019/02/18/new-emojis-2019.jpg',
+        likes: 2,
+        timestamp: "July 17th 2017, 03:19:09 pm",
+        comments: [
+            {
+                id: 40,
+                username: "twitch",
+                text: "So cool!",
+            },
+            {
+                id: 41,
+                username: "michaelmarzetta",
+                text: "Omg that's crazy",
+            },
+            {
+                id: 42,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 43,
+                username: "dennis_futbol",
+                text: "YOOOOOOOOOOOO",
+            },
+        ],
+    },
+    {
+        id: 4,
+        username: "Lambda",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://live.staticflickr.com/7128/8163727013_8cccf0c57d_b.jpg',
+        likes: 4307,
+        timestamp: "June 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 50,
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 51,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 52,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 53,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
 ];
 
 export default dummyData;

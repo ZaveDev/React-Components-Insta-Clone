@@ -9,7 +9,7 @@ const Post = props => {
   const { post, likePost } = props
 
   return (
-    <div className='post-border'>
+    <div className='post-border' key={post.id}>
       <PostHeader
         username={post.username}
         thumbnailUrl={post.thumbnailUrl}
@@ -22,9 +22,9 @@ const Post = props => {
         />
       </div>
       {/* LikeSection is missing a prop it needs to function! */}
-      <LikeSection likePost={() => likePost(post.id)} />
+      <LikeSection likePost={() => likePost(post.id)} likeCount={post.likes}/>
       {/* Comments also wants its props! */}
-      <Comments />
+      <Comments comments={post.comments}/>
     </div>
   );
 };
